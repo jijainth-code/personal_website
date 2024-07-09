@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jijainth-code.github.io/personal_website/static/css/main.e0f83247.css",
-    "main.js": "/jijainth-code.github.io/personal_website/static/js/main.eb8583d8.js",
-    "static/js/453.2a82e7ac.chunk.js": "/jijainth-code.github.io/personal_website/static/js/453.2a82e7ac.chunk.js",
-    "index.html": "/jijainth-code.github.io/personal_website/index.html",
-    "main.e0f83247.css.map": "/jijainth-code.github.io/personal_website/static/css/main.e0f83247.css.map",
-    "main.eb8583d8.js.map": "/jijainth-code.github.io/personal_website/static/js/main.eb8583d8.js.map",
-    "453.2a82e7ac.chunk.js.map": "/jijainth-code.github.io/personal_website/static/js/453.2a82e7ac.chunk.js.map"
+    "main.css": "/static/css/main.e0f83247.css",
+    "main.js": "/static/js/main.e7210e09.js",
+    "static/js/453.2a82e7ac.chunk.js": "/static/js/453.2a82e7ac.chunk.js",
+    "index.html": "/index.html",
+    "main.e0f83247.css.map": "/static/css/main.e0f83247.css.map",
+    "main.e7210e09.js.map": "/static/js/main.e7210e09.js.map",
+    "453.2a82e7ac.chunk.js.map": "/static/js/453.2a82e7ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0f83247.css",
-    "static/js/main.eb8583d8.js"
+    "static/js/main.e7210e09.js"
   ]
 }
