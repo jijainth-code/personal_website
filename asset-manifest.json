@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jijainth-code.github.io/personal_website/static/css/main.e0f83247.css",
+    "main.js": "/jijainth-code.github.io/personal_website/static/js/main.eb8583d8.js",
+    "static/js/453.2a82e7ac.chunk.js": "/jijainth-code.github.io/personal_website/static/js/453.2a82e7ac.chunk.js",
+    "index.html": "/jijainth-code.github.io/personal_website/index.html",
+    "main.e0f83247.css.map": "/jijainth-code.github.io/personal_website/static/css/main.e0f83247.css.map",
+    "main.eb8583d8.js.map": "/jijainth-code.github.io/personal_website/static/js/main.eb8583d8.js.map",
+    "453.2a82e7ac.chunk.js.map": "/jijainth-code.github.io/personal_website/static/js/453.2a82e7ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0f83247.css",
+    "static/js/main.eb8583d8.js"
+  ]
+}
