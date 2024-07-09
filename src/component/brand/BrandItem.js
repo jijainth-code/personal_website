@@ -2,29 +2,27 @@ import React from 'react';
 
 const Data = [
     {
-        image: "/images/brand/brand-1.png"
+        image: "/images/brand/work1.png"
     },
     {
-        image: "/images/brand/brand-2.png"
+        image: "/images/brand/work2.png"
     },
     {
-        image: "/images/brand/brand-3.png"
+        image: "/images/brand/work3.png"
     },
     {
-        image: "/images/brand/brand-4.png"
+        image: "/images/brand/work4.png"
     },
     {
-        image: "/images/brand/brand-5.png"
+        image: "/images/brand/work5.png"
     },
     {
-        image: "/images/brand/brand-6.png"
+        image: "/images/brand/work6.png"
     },
     {
-        image: "/images/brand/brand-7.png"
+        image: "/images/brand/work7.png"
     },
-    {
-        image: "/images/brand/brand-8.png"
-    }
+    
 ]
 
 

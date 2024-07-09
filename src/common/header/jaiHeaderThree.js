@@ -23,27 +23,21 @@ const HeaderThree = () => {
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/logo.svg"
+                                {/* <Logo limage="/images/logo.svg"
                                 dimage="/images/logo-3.svg"
                                 simage="/images/logo-2.svg"
-                                />
+                                /> */}
                             </div>
                             <div className="header-action">
                                 <ul className="list-unstyled">
                                     <li className="header-social-link">
                                         <ul className="social-icon-list list-unstyled">
-                                            <li><a href="https://twitter.com/"><FaXTwitter /></a></li>
-                                            <li><a href="https://www.linkedin.com/"><FaLinkedin /></a></li>
+                                            <li><a href="https://x.com/jijainthdhinak2"><FaXTwitter /></a></li>
+                                            <li><a href="https://www.linkedin.com/in/jijainth/"><FaLinkedin /></a></li>
                                         </ul>
                                     </li>
 
-                                    <li className="sidemenu-btn">
-                                        <button className="btn-wrap" onClick={OffcanvasHandleShow}>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </button>
-                                    </li>
+                                    
                                     <li className="my_switcher d-block d-lg-none">
                                         <SwitcherHeader />
                                     </li>

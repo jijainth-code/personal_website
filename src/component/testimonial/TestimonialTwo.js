@@ -8,37 +8,14 @@ const TestimonialTwo = () => {
         <div className="section section-padding-equal">
             <div className="container">
                 <SectionTitle 
-                    subtitle="Testimonial"
-                    title="From getting started"
-                    description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                    subtitle="About"
+                    title="A brief story about me "
+                    description="I'm a full-stack developer skilled in React, Flask, and MongoDB. I've mastered data structures and algorithms through extensive LeetCode practice and possess strong system architecture knowledge. I have practical experience in machine learning and neural network projects from both my university and company roles. I excel in both team leadership and solo projects. Currently pursuing a B.Sc. in Artificial Intelligence, I also work on my own programming projects in my free time."
                     textAlignment="heading-left"
                     textColor=""
                 />
-                <div className="row">
-                    <TestimonialPropOne colSize="col-lg-4" itemShow="3"/>
-                </div>
-                <div className="axil-followers">
-                    <ul className="followers-list list-unstyled">
-                        <li className="dribble">
-                            <a href="https://facebook.com/">
-                                <span className="icon"><FaDribbble /></span>
-                                <span>60k Followers</span>
-                            </a>
-                        </li>
-                        <li className="behance">
-                            <a href="https://www.behance.net/">
-                                <span className="icon"><FaBehance /></span>
-                                <span> 30kFollowers</span>
-                            </a>
-                        </li>
-                        <li className="linkedin">
-                            <a href="https://www.linkedin.com/">
-                                <span className="icon"><FaLinkedinIn /></span>
-                                <span>13k Connections</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                
+                
 
             </div>
             <ul className="shape-group-4 list-unstyled">

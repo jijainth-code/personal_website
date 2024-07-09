@@ -20,9 +20,7 @@ const PersonalPortfolio = () => {
         <main className="main-wrapper">
             <HeaderThree />
             <BannerThree />
-            <ProjectTwo />
-            <ProjectThree />
-
+            {/* <ProjectThree /> */}
             <BrandOne />
             <TestimonialTwo />
 
