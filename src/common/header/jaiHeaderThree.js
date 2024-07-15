@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../../elements/logo/Logo';
+import Nav from './jaiNav'
 import OffcanvasMenu from './OffcanvasMenu';
 import StickyHeader from './StickyHeader';
 import { FaFacebookF, FaLinkedin, FaBehance } from "react-icons/fa";
@@ -27,6 +28,9 @@ const HeaderThree = () => {
                                 dimage="/images/logo-3.svg"
                                 simage="/images/logo-2.svg"
                                 /> */}
+                            </div>
+                            <div className="header-main-nav">
+                                <Nav />
                             </div>
                             <div className="header-action">
                                 <ul className="list-unstyled">

@@ -101,6 +101,11 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/privacy-policy"} element={<PrivacyPolicy />}/>
 				<Route path={process.env.PUBLIC_URL + "/terms-use"} element={<TermsOfUse />}/> */}
 
+				<Route path={process.env.PUBLIC_URL + "/404"} element={<ErrorPage />}/>
+				<Route path={process.env.PUBLIC_URL + "/coming-soon"} element={<ComingSoon />}/>
+				<Route path={process.env.PUBLIC_URL + "/privacy-policy"} element={<PrivacyPolicy />}/>
+				<Route path={process.env.PUBLIC_URL + "/terms-use"} element={<TermsOfUse />}/>
+
 			</Routes>
 		</ScrollToTop>
     </Router>
