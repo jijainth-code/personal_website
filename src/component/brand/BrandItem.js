@@ -22,6 +22,9 @@ const Data = [
     {
         image: "/images/brand/work7.png"
     },
+    {
+        image: "/images/brand/work8.png"
+    },
     
 ]
 

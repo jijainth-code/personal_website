@@ -5,6 +5,10 @@ import Tilty from 'react-tilty';
 
 
 const BannerThree = () => {
+
+
+
+
     return (
             <div className="banner banner-style-3">
             <div className="container">
@@ -15,13 +19,13 @@ const BannerThree = () => {
                             <span className="subtitle">JIJAINTH DHINAKARAN</span>
                         </AnimationOnScroll>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
-                            <h1 className="title">Professional Full Stack and AI Engineer</h1>
+                            <h1 className="title">Student <br></br> Full Stack <br></br> AI Engineer</h1>
 
                             
                         </AnimationOnScroll>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                         <div className="btn-group">
-                            <a href="https://www.linkedin.com/in/jijainth/recent-activity/all/" className="axil-btn btn-fill-primary btn-large">Read my Articles</a>
+                            <a href={process.env.PUBLIC_URL + "/Jijainth_CV.pdf"} download='Jijainth_CV' className="axil-btn btn-fill-primary btn-large">Download my CV</a>
                         </div>
                         </AnimationOnScroll>
                     </div>
