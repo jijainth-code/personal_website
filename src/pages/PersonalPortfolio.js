@@ -30,8 +30,8 @@ const PersonalPortfolio = () => {
                         <div className="col-lg-6">
                             <div className="contact-address mb--30">
                             <SectionTitle 
-                                subtitle="Contact me ?"
-                                title="Let’s work together"
+                                subtitle=""
+                                title="Contact me ? "
                                 description=""
                                 textAlignment="heading-light-left"
                                 textColor=""
@@ -55,7 +55,7 @@ const PersonalPortfolio = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="contact-form-box mb--30">
-                                <h3 className="title">send a quick message to me here !</h3>
+                                <h3 className="title">send a quick message here !</h3>
                                 <FormThree />
                             </div>
                         </div>

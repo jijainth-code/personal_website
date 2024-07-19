@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
-import emailjs from '@emailjs/browser';
 import Alert from 'react-bootstrap/Alert';
+import BACKEND_URL from '../../config';
 
 const Result = () => {
     return (
@@ -10,28 +10,68 @@ const Result = () => {
     )
 }
 
-const FormThree = () => {
+const Error = () => {
+    return (
+        <Alert variant="danger" className="success-msg">
+        Our Server is having Issues Right now , Try again Later.
+        </Alert>
+    )
+}
 
+const FormThree = () => {
     const form = useRef();
 
     const [ result, showresult ] = useState(false);
+    const [ error, showerror ] = useState(false);
 
-    const sendEmail = (e) => {
+    const sendEmail = async (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_yj5dgzp', 'template_hfduayo', form.current, 'WLENsTkBytC0yvItS')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          form.current.reset();
-          showresult(true);
-      };
-
+        // Collect form data
+        const formData = new FormData(form.current);
+        const formJson = {
+            Name: formData.get('contact-name'),
+            Email: formData.get('contact-email'),
+            subject: formData.get('contact-message')
+        };
+    
+        try {
+            // Post form data to backend server using fetch
+            const response = await fetch(`${BACKEND_URL}/form_message`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formJson)
+            });
+    
+            const data = await response.json();
+    
+            if (response.ok) {
+                // Success response handling
+                console.log('Backend response:', data);
+                showresult(true); // Show result message after successful post
+                showerror(false);
+            } else {
+                // Error response handling
+                console.error('Error posting form data:', data);
+                showerror(true); // Show error message if the response is not OK
+                showresult(false);
+            }
+        } catch (error) {
+            // Exception handling
+            console.error('Error posting form data:', error);
+            showerror(true); // Show error message if an exception occurs
+            showresult(false);
+        }
+    
+        // Reset form and hide messages after 5 seconds
+        form.current.reset();
         setTimeout(() => {
             showresult(false);
+            showerror(false);
         }, 5000);
+    };
 
 
     return (
@@ -53,6 +93,7 @@ const FormThree = () => {
         </div>
         <div className="form-group">
             {result ? <Result /> : null}
+            {error ? <Error /> : null}
         </div>
 
     </form>
