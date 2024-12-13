@@ -9,26 +9,35 @@ const TestimonialTwo = () => {
             <div className="container">
                 <SectionTitle 
                     subtitle="About Me"
-                    title="Jijainth Dhinakaran's Adventure ... "
+                    title="Harsh Gurawaliya Adventure ... "
                     description={`
-                                    In the sprawling realm where lines of code intertwine like ancient runes, Jijainth Dhinakaran emerges as a fearless explorer. Hailing from the vibrant lands of India, his journey led him across oceans to the heart of innovation in Germany. Armed with the mighty trinity of React, Flask, and MongoDB, he navigates through the intricate labyrinths of full-stack development. 
 
-                                    <br /><br />
+                                In the electrifying universe where algorithms build empires and neural networks breathe synthetic life, Harsh Gurawaliya is not just a coder—he is a hero on a quest. From the vibrant landscapes of India to the dynamic pulse of Germany, his journey is a testament to ambition and ingenuity. Armed with legendary tools like CUDA, FastAPI, and Docker, he crafts solutions that not only solve problems but redefine the boundaries of Artificial Intelligence.
 
-                                    From the dense forests of data structures to the peaks of algorithmic prowess, Jijainth honed his skills through countless trials in the crucible of LeetCode. Yet, his odyssey transcends mere coding; it delves into the mysterious realms of machine learning and neural networks. Echoes of his triumphs resonate from university halls to corporate battlegrounds, where his genius shines in crafting systems that defy conventional limits.
+                                <br /><br />
 
-                                    <br /><br />
+                                From the labyrinth of deep learning to the peaks of autonomous robotics, Harsh has mastered the art of engineering intelligence. His academic forge, the Deggendorf Institute of Technology, sharpened his skills in Generative AI, NLP, Computer Vision, and Machine Learning. But his adventures extend far beyond the classroom—into corporate battlegrounds where his innovations have reshaped industries. At Onepager Software GmbH, he crafted secure, high-performing AI systems, while his contributions to B Plus Automotive GmbH advanced autonomous vehicle technology.
 
-                                    In the depths of solo quests and the crucible of team dynamics, Jijainth is not merely a player but a leader. His name whispered among digital nomads and tech sages alike, for his mastery extends beyond the screen. With a quest for knowledge as boundless as the cosmos, he pursues a B.Sc. in Artificial Intelligence, unraveling the secrets of intelligence itself.
+                                <br /><br />
 
-                                    <br /><br />
+                                Harsh’s personal projects tell stories of imagination and mastery:
+                                <ul>
+                                    <li><strong>Medical Conversations AI:</strong> Fine-tuned Llama 3 for secure, domain-specific doctor-patient interactions with reduced resource usage.</li>
+                                    <li><strong>Marketing Intelligence SaaS:</strong> Developed a full-stack application integrating React, Flask, and MongoDB to empower personalized marketing.</li>
+                                    <li><strong>Automated ML Pipelines:</strong> Built end-to-end workflows featuring CI/CD pipelines and AWS deployment to handle predictive modeling with precision.</li>
+                                    <li><strong>Facial Recognition Coffee Dispenser:</strong> Designed a campus innovation using CNNs integrated with PyTorch and TensorFlow.</li>
+                                </ul>
 
-                                    Yet, his adventures do not cease at the edge of academia. In the twilight hours, he forges his own creations, where ideas sprout wings and innovation knows no bounds. Each line of code, a stroke in the canvas of his epic saga, etching a legacy that transcends time and space.
+                                <br /><br />
 
-                                    <br /><br />
+                                Yet, Harsh’s legacy isn’t confined to his technical brilliance. He is a leader and a collaborator, inspiring communities like the United AI Club while pushing the boundaries of innovation. His relentless curiosity transforms challenges into stepping stones and ideas into groundbreaking realities.
 
-                                    Jijainth Dhinakaran's journey is not just a narrative—it is an action-packed adventure where technology meets imagination, where challenges become conquests, and where every byte of data holds the promise of the unknown .... 
-                                `}
+                                <br /><br />
+
+                                Harsh Gurawaliya’s journey is not just a career—it’s an epic. A saga where technology meets humanity, where every byte of data holds a promise, and where every solved problem echoes with the spirit of discovery. The tale of Harsh Gurawaliya is still unfolding, but with every project, every challenge, and every idea, he writes the next chapter in the chronicles of the extraordinary.
+
+                                    `}
+                                    
                     textAlignment="heading-left"
                     textColor=""
                 />

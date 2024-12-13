@@ -36,8 +36,7 @@ const HeaderThree = () => {
                                 <ul className="list-unstyled">
                                     <li className="header-social-link">
                                         <ul className="social-icon-list list-unstyled">
-                                            <li><a href="https://x.com/jijainthdhinak2"><FaXTwitter /></a></li>
-                                            <li><a href="https://www.linkedin.com/in/jijainth/"><FaLinkedin /></a></li>
+                                            <li><a href="https://www.linkedin.com/in/harsh-gurawaliya-a9b63b1b2/"><FaLinkedin /></a></li>
                                         </ul>
                                     </li>
 
