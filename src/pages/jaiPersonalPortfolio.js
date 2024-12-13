@@ -39,7 +39,7 @@ const PersonalPortfolio = () => {
                             <div className="address-list">
                                 <div className="address">
                                 <h6 className="title">E-Mail</h6>
-                                <p>harshgurawaliya3@gmail.com</p>
+                                <p>pulkit.sharma5914@gmail.com</p>
                                 </div>
                                 <div className="address">
                                 <h6 className="title">Address</h6>
@@ -47,7 +47,7 @@ const PersonalPortfolio = () => {
                                 </div>
                                 <div className="address">
                                 <h6 className="title">Phone</h6>
-                                <p>+4917655738830</p>
+                                <p>+4915214771341</p>
                                 from 11:00 - 19:30
                                 </div>
                             </div>

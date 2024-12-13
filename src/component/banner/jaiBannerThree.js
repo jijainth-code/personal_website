@@ -16,7 +16,7 @@ const BannerThree = () => {
                 <div className="col-lg-6">
                     <div className="banner-content">
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={100}>
-                            <span className="subtitle">HARSH GURAWALIYA</span>
+                            <span className="subtitle">PULKIT SHARMA</span>
                         </AnimationOnScroll>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                             <h1 className="title">Student <br></br> Full Stack <br></br> AI Engineer</h1>
@@ -25,7 +25,7 @@ const BannerThree = () => {
                         </AnimationOnScroll>
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                         <div className="btn-group">
-                            <a href={process.env.PUBLIC_URL + "/harsh_cv.pdf"} download='Harsh_CV' className="axil-btn btn-fill-primary btn-large">Download my CV</a>
+                            <a href={process.env.PUBLIC_URL + "/pulkit.pdf"} download='Pulkit_CV' className="axil-btn btn-fill-primary btn-large">Download my CV</a>
                         </div>
                         </AnimationOnScroll>
                     </div>
@@ -35,7 +35,7 @@ const BannerThree = () => {
                     <div className="large-thumb">
                         <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
                             <Tilty perspective={2000} reset={false}>
-                                <img src={process.env.PUBLIC_URL + "/images/banner/harsh.jpeg"} alt="Shape" />
+                                <img src={process.env.PUBLIC_URL + "/images/banner/pulkit.jpeg"} alt="Shape" />
                             </Tilty>
                         </AnimationOnScroll>
                     </div>

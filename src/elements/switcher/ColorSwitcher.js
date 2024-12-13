@@ -11,8 +11,9 @@ const ColorSwitcher = () => {
     return (
         <div className="my_switcher d-none d-lg-block">
             <button onClick={switchColor}>
-                <span className="setColor dark"><FaLightbulb /></span>
                 <span className="setColor light"><FaMoon /></span>
+                <span className="setColor dark"><FaLightbulb /></span>
+                
             </button>
         </div>
     )

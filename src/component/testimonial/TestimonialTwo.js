@@ -9,35 +9,30 @@ const TestimonialTwo = () => {
             <div className="container">
                 <SectionTitle 
                     subtitle="About Me"
-                    title="Harsh Gurawaliya Adventure ... "
+                    title="Pulkit Sharma's Adventure ... "
                     description={`
 
-                                In the electrifying universe where algorithms build empires and neural networks breathe synthetic life, Harsh Gurawaliya is not just a coder—he is a hero on a quest. From the vibrant landscapes of India to the dynamic pulse of Germany, his journey is a testament to ambition and ingenuity. Armed with legendary tools like CUDA, FastAPI, and Docker, he crafts solutions that not only solve problems but redefine the boundaries of Artificial Intelligence.
+                                <p>In the boundless cosmos of artificial intelligence and robotics, Pulkit Sharma is more than a developer—he is an explorer, a pioneer of the digital frontier. From the bustling streets of Delhi to the academic halls of Deggendorf, his journey is a saga of ambition, curiosity, and relentless innovation.</p>
 
-                                <br /><br />
+                                <p>Armed with a vast arsenal of skills—Python, MongoDB, Unity Game Development, and more—Pulkit crafts solutions that bridge imagination and functionality. He is not just a builder of systems but a creator of experiences, pushing the boundaries of technology to serve humanity.</p>
 
-                                From the labyrinth of deep learning to the peaks of autonomous robotics, Harsh has mastered the art of engineering intelligence. His academic forge, the Deggendorf Institute of Technology, sharpened his skills in Generative AI, NLP, Computer Vision, and Machine Learning. But his adventures extend far beyond the classroom—into corporate battlegrounds where his innovations have reshaped industries. At Onepager Software GmbH, he crafted secure, high-performing AI systems, while his contributions to B Plus Automotive GmbH advanced autonomous vehicle technology.
-
-                                <br /><br />
-
-                                Harsh’s personal projects tell stories of imagination and mastery:
+                                <p>In the workshops of his academic journey, Pulkit mastered the arcane arts of neural networks, robotics, and AI-driven applications. His projects are the tales of his ingenuity:</p>
                                 <ul>
-                                    <li><strong>Medical Conversations AI:</strong> Fine-tuned Llama 3 for secure, domain-specific doctor-patient interactions with reduced resource usage.</li>
-                                    <li><strong>Marketing Intelligence SaaS:</strong> Developed a full-stack application integrating React, Flask, and MongoDB to empower personalized marketing.</li>
-                                    <li><strong>Automated ML Pipelines:</strong> Built end-to-end workflows featuring CI/CD pipelines and AWS deployment to handle predictive modeling with precision.</li>
-                                    <li><strong>Facial Recognition Coffee Dispenser:</strong> Designed a campus innovation using CNNs integrated with PyTorch and TensorFlow.</li>
+                                    <li><strong>Robotic Arm with Unity C#:</strong> A marvel of reinforcement learning, this arm reaches coordinates with precision, mimicking human finesse.</li>
+                                    <li><strong>Custom Neural Network Framework:</strong> Built from scratch with Python and NumPy, this framework is a testament to Pulkit’s deep understanding of machine learning fundamentals.</li>
+                                    <li><strong>Supply Chain Automation:</strong> Using Python and Pandas, he transformed manual workflows into efficient, automated systems, saving countless hours for the supply chain team.</li>
+                                    <li><strong>Stock Market Data Scraping and Analysis:</strong> With live feedback capabilities, this GUI tool provides actionable insights for investors, showcasing Pulkit's flair for real-world applications.</li>
                                 </ul>
 
-                                <br /><br />
+                                <p>His creations do not merely exist; they breathe life into complex problems, offering solutions that inspire awe and admiration. Yet, his ambition extends beyond technical mastery—Pulkit is a collaborator, a member of the United AI Club, and a thought leader in his community.</p>
 
-                                Yet, Harsh’s legacy isn’t confined to his technical brilliance. He is a leader and a collaborator, inspiring communities like the United AI Club while pushing the boundaries of innovation. His relentless curiosity transforms challenges into stepping stones and ideas into groundbreaking realities.
+                                <p>Driven by an unquenchable thirst for knowledge, Pulkit has set his sights on the stars—figuratively and literally. With a passion for space, robotics, and AI, his journey is far from over. Every project he undertakes is a step toward redefining the possible, and every challenge he overcomes is a chapter in the epic of his life.</p>
 
-                                <br /><br />
+                                <p>Pulkit Sharma’s story is not just a resume; it is an odyssey—a journey of discovery, innovation, and boundless potential. And in the ever-expanding universe of technology, his light shines brightly, a beacon of hope and inspiration for all who dare to dream.</p>
 
-                                Harsh Gurawaliya’s journey is not just a career—it’s an epic. A saga where technology meets humanity, where every byte of data holds a promise, and where every solved problem echoes with the spirit of discovery. The tale of Harsh Gurawaliya is still unfolding, but with every project, every challenge, and every idea, he writes the next chapter in the chronicles of the extraordinary.
 
                                     `}
-                                    
+
                     textAlignment="heading-left"
                     textColor=""
                 />
